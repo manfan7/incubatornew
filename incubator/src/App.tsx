@@ -22,7 +22,7 @@ function App() {
             </button>
             <button onClick={() => setContent(true)}>Vite</button>
             <h1>Vite + React</h1>
-            <button onClick={ThemeChanger}>Выбор темы</button>
+            <button onClick={ThemeChanger}>Выбор темы(жми)</button>
             {content ? <div className="card">
                 <button onClick={() => setCount((count) => count + 1)}>
                     count is {count}
