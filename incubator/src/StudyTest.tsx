@@ -107,7 +107,7 @@ const [isClickedd,setIsClicked] = useState(false)
             </div>
         <div>
             <Btn >See more</Btn>
-<button>New</button>
+
             <BtnWhite isClickedd={isClickedd} onClick={()=>isClci()}>Save</BtnWhite>
         </div>
 
