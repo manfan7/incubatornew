@@ -31,7 +31,7 @@ function App() {
 
             </div> : <Study/>}
             </ThemeProvider>
-<span>Hello</span>
+<span>Hello45</span>
         </>
     )
 }
