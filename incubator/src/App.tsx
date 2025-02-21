@@ -16,20 +16,21 @@ function App() {
     return (
         <>
             <ThemeProvider theme={theme}>
-            <button onClick={() => {
-                setContent(false)
-            }}>Portfolio Test
-            </button>
-            <button onClick={() => setContent(true)}>Vite</button>
-            <h1>Vite + React</h1>
-            <button onClick={ThemeChanger}>Выбор темы(жми)</button>
-            {content ? <div className="card">
-                <button onClick={() => setCount((count) => count + 1)}>
-                    count is {count}
-
+                <button onClick={() => {
+                    setContent(false)
+                }}>Portfolio Test
                 </button>
-'dev commit 1'
-            </div> : <Study/>}
+                <button onClick={() => setContent(true)}>Vite</button>
+                <h1>Vite + React</h1>
+                <button onClick={ThemeChanger}>Выбор темы(жми)</button>
+                {content ? <div className="card">
+                    <button onClick={() => setCount((count) => count + 1)}>
+                        count is {count}
+
+                    </button>
+                    'dev commit 1'
+                    'dev commit 2'
+                </div> : <Study/>}
             </ThemeProvider>
 
         </>
