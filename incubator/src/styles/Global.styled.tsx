@@ -4,7 +4,7 @@ import {MyTheme} from "./styles.tsx";
 
 const GlobalStyles = createGlobalStyle`
     body{
-        background-color: ${MyTheme.colors.primary}
+        background-color: ${MyTheme.colors.secondary}
     }
     
     `
