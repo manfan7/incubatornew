@@ -28,7 +28,7 @@ function App() {
                     count is {count}
 
                 </button>
-
+'dev commit 1'
             </div> : <Study/>}
             </ThemeProvider>
 
