@@ -28,8 +28,7 @@ function App() {
                         count is {count}
 
                     </button>
-                    'dev commit 1'
-                    'dev commit 2'
+
                 </div> : <Study/>}
             </ThemeProvider>
 
