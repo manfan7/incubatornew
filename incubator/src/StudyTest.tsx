@@ -78,7 +78,7 @@ const P = styled.p`
     font-weight: 500;
     color: #Abb3ba;
     width: 85%;
-    
+
     @media (max-width: 1280px) {
         color: #1a1a1a;
     }

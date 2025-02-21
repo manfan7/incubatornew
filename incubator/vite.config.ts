@@ -9,9 +9,11 @@ export default defineConfig({
       },
     }),
   ],
+  base: '/incubatornew/',
   resolve: {
     alias: {
       '@': '/src',
     },
   },
+
 });
