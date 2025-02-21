@@ -31,7 +31,7 @@ function App() {
 
             </div> : <Study/>}
             </ThemeProvider>
-'ghjghj1'
+
         </>
     )
 }
